@@ -1,0 +1,18 @@
+USE plat;
+SHOW TABLES;
+SELECT * FROM disease_details
+
+SHOW TABLES;
+USE plat;
+USE plat;
+SHOW TABLES;
+CREATE TABLE log_details (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  status VARCHAR(255)
+);
+SELECT * FROM log_details;
+ALTER TABLE log_details MODIFY password VARCHAR(255) DEFAULT NULL;
+
+

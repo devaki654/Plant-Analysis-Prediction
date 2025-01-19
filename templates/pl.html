@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .image-item {
+            margin: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .image-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+        .image-item p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-gallery">
+        <div class="image-item">
+            <!-- Ensure the local file path is enclosed in quotes and accessible -->
+            <img src="file:///C:/Users/cuted/Desktop/train/potatospot/19393f68-e96c-4c93-b4d1-39e1c54e53b1___RS_LB.jpg" alt="Plant 1">
+            <p>Plant 1</p>
+        </div>
+        <div class="image-item">
+            <img src="plant2.jpg" alt="Plant 2">
+            <p>Plant 2</p>
+        </div>
+        <div class="image-item">
+            <img src="plant3.jpg" alt="Plant 3">
+            <p>Plant 3</p>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+</body>
+</html>
